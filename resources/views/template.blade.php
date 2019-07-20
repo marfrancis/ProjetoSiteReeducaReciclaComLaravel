@@ -116,69 +116,143 @@
 
 
     <footer>
-        <div style="max-width: 100%; overflow: hidden;">
-            <footer>
-            <nav class="nav nav-fill rodape">
 
-                <div class="col-md-3 d-none d-sm-block">
-                <li class="footer-logo-size">
-                        <img src="img/logo_branco.png" width="200" alt="">
-                </li>
-                </div>
+        <!--Start Footer-->
+   <footer class="footer" id="footer">
+    <div class="container">
+     <div class="row">
+         <div class="col-md-12">
+             <div class="emergency">
 
-                <div class="col-md-9">
-                    <div class="row">
-                        <ul class="nav marginFooter">
-                            <li class="nav-item d-none d-sm-block" >
-                                <a class="nav-link active menu-footer" href="/">Home</a>
-                                <a class="nav-link active menu-footer" href="/sobre">Sobre</a>
-                                <a class="nav-link active menu-footer" href="/loja">Loja</a>
-                            </li>
-                            <li class="nav-item d-none d-sm-block" >
-                                <a class="nav-link active menu-footer" href="/mapa">Mapa</a>
-                                <a class="nav-link active menu-footer" href="/faq">FAQ</a>
-                            </li>
-                            <li class="nav-item d-none d-sm-block">
-                                <a class="nav-link active menu-footer" href="/contato">Contato</a>
-                            </li>
-                       <div class="col-md-2 text-primary div-icones justify-content-center" >
-                            <ul class="ul-icones-footer ">
-                                <li class="nav-link active icones-footer">
-                                    <a href="https://twitter.com/reeducarecicla" target="_blank">
-                                        <i class="fa fa-twitter text-white"> </i>
-                                    </a>
-                                </li>
+            <img src="img/logo_branco.png" width="200" alt="">
+             </div>
+         </div>
+     </div>
 
-                                <li class="nav-link active icones-footer">
-                                    <a href="https://facebook.com/reeducarecicla" target="_blank">
-                                        <i class="fa fa-facebook text-white"> </i>
-                                    </a>
-                                </li>
-                                <li class=" nav-link active icones-footer">
-                                    <a href="http://instagram.com/reeducarecicla" target="_blank">
-                                        <i class="fa fa-instagram text-white"> </i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                          <li class="nav-item newsletter">
-                             <label class="form-control newsletter-footer"> Assine nossa Newsletter!</label>
-                                <div class="input-group newsletter-email">
-                                     <input class="form-control" type="email" placeholder="email@email.com.br">
-                                     <span class="input-group-btn ">
-                                     <button class="btn btn-success" class="btn-newsletter" type="submit">Assine agora</button>
-                                  </span>
-                                </div>
-                          </li>
-                      </ul>
-                  </div>
-            </nav>
 
-              <div class="foot5 mb-0 container-fluid justify-content-center">
-                  <p class="mb-3">Copyrights © 2019 ReeducaRecicla</p>
-              </div>
-        </footer>
-        </div>
+     <div class="main-footer">
+         <div class="row">
+
+             <div class="col-md-4">
+
+                 <div class="useful-links">
+                     <div class="title">
+                         <h5>Links</h5>
+                     </div>
+
+                     <div class="detail">
+                         <ul>
+
+                             <li><a href="#.">Home</a></li>
+                             <li><a href="#.">FAQ</a></li>
+                             <li><a href="#.">Mapa</a></li>
+                             <li><a href="#.">Termo de uso</a></li>
+                             <li><a href="#.">Loja</a></li>
+                             <li><a href="#.">Politica de Privacidade</a></li>
+                             <li><a href="#.">Sobre</a></li>
+                             <li><a href="#.">Contato</a></li>
+                             <li><a href="#.">Login</a></li>
+
+                         </ul>
+                     </div>
+
+                 </div>
+
+             </div>
+
+             <div class="col-md-4 mb-3">
+
+                 <div class="newsletter">
+                     <div class="title">
+                         <h5>NEWSLETTER</h5>
+                     </div>
+
+                     <div class="detail">
+
+                             <div class="signup-text">
+                                 <i class="fa fa-envelope-open"></i>
+                                 <span>Inscreva-se com seu nome e e-mail para receber nossas atualizações.</span>
+                             </div>
+
+                             <div class="form">
+                             <p class="subscribe_success" id="subscribe_success" style="display:none;"></p>
+                             <p class="subscribe_error" id="subscribe_error" style="display:none;"></p>
+
+                             <form name="subscribe_form" id="subscribe_form" method="post" action="#" onSubmit="return false">
+                                 <input type="text" data-delay="300" placeholder="Seu nome" name="subscribe_name" id="subscribe_name" onKeyPress="removeChecks();" class="input" >
+                                 <input type="text" data-delay="300" placeholder="Email" name="subscribe_email" id="subscribe_email" onKeyPress="removeChecks();" class="input" >
+                                 {{-- <input name="Subscribe" type="submit" value="Assinar" onClick="validateSubscription();"> --}}
+                            <button type="submit" class="btn btn-card btn-secondary" value="Assinar">Assinar</button>
+                             </form>
+
+                             </div>
+
+                         </div>
+
+
+                 </div>
+
+             </div>
+             <div class="col-md-4">
+
+                 <div class="get-touch">
+                     <div class="title">
+                         <h5>CONTATO</h5>
+                     </div>
+
+                     <div class="detail">
+                         <div class="get-touch">
+
+
+                             <span class="text">Conheça o projeto e compartilhe sua ideias com nossa equipe!</span>
+
+
+                             <ul>
+                                 <li><i class="fa fa-map-marker"></i> <span>Reeduca Recicla, São Paulo, SP</span></li>
+                                 <li><i class="fa fa-phone"></i> <span>(11) 99999-1029</span></li>
+                                 <li><a href="#."><i class="fa fa-envelope"></i> <span>contato@reeducarecicla.com.br</span></a></li>
+                             </ul>
+
+                         </div>
+                     </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+
+     </div>
+
+ </div>
+
+ <div class="footer-bottom">
+     <div class="container">
+         <div class="row">
+
+             <div class="col-md-6">
+                 <span class="copyrights">Copyright &copy; 2019 Reeduca Recicla. Todos os Direitos Reservados.</span>
+             </div>
+
+             <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item m-t-10"><a href="" class="btn btn-facebook-footer"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item m-t-10"><a href="" class="btn btn-twitter-footer"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item m-t-10"><a href="" class="btn btn-instagram"><i class="fa fa-instagram"></i></a>
+                    </li>
+
+                </ul>
+             </div>
+
+         </div>
+     </div>
+
+ </div>
+
+</footer>
+<!--End Footer-->
 
             <?php if (strpos($_SERVER['HTTP_USER_AGENT'], "Google Page Speed Insights") === false): ?>
                 <!-- O que tiver aqui dentro o page speed do Google não consegue ver -->
@@ -188,6 +262,8 @@
             <link rel="stylesheet" href="{{asset('css/style.css')}}">
             <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
 
+            {{-- <link href="{{asset('css/font-icons.css')}}" rel="stylesheet" type="text/css" /> --}}
+            <link href="{{asset('css/recicla-guide.css')}}" rel="stylesheet" type="text/css" />
             <link href="{{asset('css/dropdown.min.css')}}" rel="stylesheet" type="text/css" />
             <link href="{{asset('css/jquery.fancybox.min.css')}}" rel="stylesheet" type="text/css" />
             <link href="{{asset('css/stylesa361.css?ver=2.3')}}" rel="stylesheet" type="text/css" />
@@ -342,6 +418,6 @@
                             }, 1000);
                             </script>
             <?php endif ?>
-    </footer>
+
 </body>
 </html>

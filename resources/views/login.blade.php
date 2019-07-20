@@ -12,31 +12,66 @@ $keywords = 'recicla,palavras,chave,separadas,por,virgula';
 $description = $facebook_description = substr(strip_tags('<p>A Reeduca, por sua atitude empresarial e pela qualidade das relações que busca desenvolver com os diversos agentes que articula, expressa sua marca na identidade com pessoas e empresas que se comprometem a atuar de maneira efetiva na colaboração por um mundo mais saudável para se habitar, em respeito ao meio ambiente do qual fazem parte e responsabilidade para com as gerações por vir.</p>'), 0, 200);
 $facebook_image = htmlentities($root . 'img/' . $foto);?>
 
-<div class="container-fluid paginaLogin col-sm-12">
-        <div class="jumbotron col-md-4 m-5 col-12 m-0" style="width:30%">
-           <div class = "container">
-              <h2 class="display-4">Login</h2>
-                 <form>
-                        <div class="form-group loginUser">
-                              <label for="loginUsuario">Usuário:</label>
-                              <input type="text" class="form-control" id="loginUsuario" aria-describedby="emailHelp" placeholder="Nome usuário" style="font-style:italic">
-                              <div class="form-inline float-right">
-                                  <input type="checkbox" class="form-control col-2" id="remember-user">
-                                  <label class="form-label" id="remember-user-text"> Lembrar usuário</label>
-                              </div>
-                        </div>
-                        <div class="form-group loginSenha">
+<body class="h-100">
 
-                              <label for="loginSenha">Senha:</label>
-                              <input type="password" class="form-control" id="loginSenha" placeholder="senha" style="font-style:italic">
-                              <a class="esqueceuSenha float-right" href="cadastro.php" >Esqueceu a senha?</a>
-
+    <div class="login-bg h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100">
+                <div class="col-xl-6 mt-5 mb-5">
+                    <div class="form-input-content ">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="logo text-center">
+                                    <a href="index.html">
+                                        <img src="img/logologin.png" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="text-center mt-4 login-form ">Faça o login na sua conta</h4>
+                                <form class="mt-5 mb-5 login-form-text">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Senha</label>
+                                        <input type="password" class="form-control" placeholder="Senha">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <div class="form-check p-l-0">
+                                                <input class="form-check-input" type="checkbox" id="basic_checkbox_1">
+                                                <label class="form-check-label" for="basic_checkbox_1">Manter conectado</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 text-right"><a href="javascript:void()">Esqueceu a senha?</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mb-4 mt-4">
+                                        <button type="submit" class="btn btn-primary">Entrar</button>
+                                    </div>
+                                </form>
+                                <div class="text-center">
+                                    <h5 class="mb-5">Ou login com</h5>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item m-t-10"><a href="javascript:void()" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item m-t-10"><a href="javascript:void()" class="btn btn-twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item m-t-10"><a href="javascript:void()" class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="list-inline-item m-t-10"><a href="javascript:void()" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                    <p class="mt-5">Não tem uma conta? <a href="javascript:void()">Cadastre-se agora!</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                              <button type="submit" class="btn btn-success">Acessar</button>
-                  </form>
-             </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
 
 
 

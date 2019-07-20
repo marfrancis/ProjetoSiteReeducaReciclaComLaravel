@@ -87,6 +87,9 @@ h1.h1FAQ {
     background-color: #75d1ce;
 } */
 
+.texto-home {
+    font-size: 16px;
+}
 
 
 .card-title {
@@ -438,70 +441,29 @@ p#frase {
 
 /*Início Configuração Footer*/
 
-.rodape{
-    background: #000000;
-    padding-top:30px;
-    padding-bottom:30px;
-    font-size: 0.9rem;
-    font-family: 'Poppins';
-    margin-bottom: 0;
-}
 
-.nav-item-newsletter{
-    width:100%;
+.btn-instagram {
+    background: #dd131b;
+    border-color: #dd131b;
+    color: #fff;
+    width: 39px;
 
 }
 
-.div-icones{
-    margin:30px;
-    display: inline-flex;
+.btn-facebook-footer {
+    background: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
+    width: 39px;
 
 }
 
-.newsletter-email{
-     width:100%;
- }
+.btn-twitter-footer {
+    background: #1da1f2;
+    border-color: #1da1f2;
+    color: #fff;]
+    width: 39px;
 
-.footer-logo-size{
-   margin-top:40px;
-   margin-left:60px;
-}
-
-.marginFooter{
-    margin:20px;
-}
-
-.nav-item-redes-sociais{
-    padding:10px;
-}
-
-.menu-footer{
-   color:white;
-   font-weight:bold;
-}
-
-.foot5{
-    background-color: #000000;
-    color:white;
-    font-size: 0.8rem;
-    line-height: 1.0rem;
-    display:flex;
-    justify-content: center;
-
-}
-
-.ul-icones-footer{
-    display: flex;
-    justify-content: space-around;
-    direction:row;
-    list-style: none;
-    width:140px;
-    margin-right:0;
-}
-
-.icones-footer{
-    width:60px;
-    font-size: 25px;
 }
 
 /* Inicio configuração formulario de login */
@@ -519,6 +481,42 @@ p#frase {
     justify-content: center;
 }
 
+.h-100 {
+    height: 100% !important;
+}
+
+.btn-google-plus {
+    background: #db4439;
+    border-color: #db4439;
+    color: #fff;
+}
+
+.btn-linkedin {
+    background: #007bb6;
+    border-color: #007bb6;
+    color: #fff;
+}
+
+.btn-twitter {
+    background: #1da1f2;
+    border-color: #1da1f2;
+    color: #fff;
+}
+
+.btn-facebook {
+    background: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
+}
+
+.login-form {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-form-text {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* Fim configuração formulario de login */
 
@@ -881,7 +879,7 @@ a.efeitoTransicaoLoja:hover {
 }
 
 .btn-primary {
-        background-color: #28a745!important;
+    background-color: #28a745!important;
     border-color: #28a745!important;
 }
 
