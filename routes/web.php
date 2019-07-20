@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use Illuminate\Routing\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,19 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', 'HomeController@home');
+
+Route::get('/contato', 'ContatoController@contato');
+
+Route::get('/sobre', 'SobreController@sobre');
+
+Route::get('/mapa', 'MapaController@mapa');
+
+Route::get('/loja', 'LojaController@loja');
+
+Route::get('/login', 'LoginController@login');
+
+Route::get('/faq', 'FaqController@faq');
+
+
+
+

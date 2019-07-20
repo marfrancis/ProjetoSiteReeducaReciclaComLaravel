@@ -34,76 +34,74 @@
 <div id="loading"><div id="loading-center"><div id="loading-center-absolute"><div class="object" id="object_one"></div><div class="object" id="object_two"></div><div class="object" id="object_three"></div><div class="object" id="object_four"></div><div class="object" id="object_five"></div><div class="object" id="object_six"></div><div class="object" id="object_seven"></div><div class="object" id="object_eight"></div><div class="object" id="object_big"></div></div></div></div>
 <?php if (false): ?>
 <?php endif ?>
-    <header>
+<header>
+        <nav class="navbar navbar-light bg-preto active shadow p-3 mb-0 displayQuery">
+            <div class="col-4">
+                <a class="navbar-brand align-self-start" href="./">
+                    <img src="img/logo_lado.png" class="logoMargin logoSize" alt="">
+                </a>
+            </div>
+            <div class="col-8">
+                <ul class="nav marginHeader justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active grow efeitoTransicaoLoja" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicaoLoja" href="/mapa">Mapa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicaoLoja" href="/loja">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicaoLoja" href="/sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicaoLoja" href="/contato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicaoLoja" href="/login">Login</a>
+                    </li>
 
-	<nav class="navbar navbar-light bg-white active shadow p-3 mb-0 displayQuery  ">
-		<div class="col-4">
-			<a class="navbar-brand align-self-start" href="./">
-				<img src="img/logo_lado.png" class="logoMargin logoSize" alt="">
-			</a>
-		</div>
-		<div class="col-8">
-			<ul class="nav marginHeader justify-content-end">
-				<li class="nav-item">
-					<a class="nav-link active grow efeitoTransicao" href="/">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="/mapa">Mapa</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="/loja">Loja</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="/sobre">Sobre</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="/contato">Contato</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="/login">Login</a>
-				</li>
-
-			</ul>
-		</div>
-	</nav>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light displayBurg">
-		<div class="row col-12 no-gutters">
-			<div class="col-5">
-				<a class="navbar-brand align-self-start" href="./">
-					<img src="img/logo_lado.png" class="logoMargin logoSize" alt="">
-				</a>
-			</div>
-			<div class="col">
-				<button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-				aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		</div>
-		<div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
-				<li class="nav-item">
-					<a class="nav-link headerBurg" href="/">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link headerBurg" href="/mapa">Mapa</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link headerBurg" href="/loja">Loja</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link headerBurg" href="/sobre">Sobre</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link headerBurg" href="/contato">Contato</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link headerBurg" href="/login">Login</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-preto displayBurg">
+            <div class="row col-12 no-gutters">
+                <div class="col-5">
+                    <a class="navbar-brand align-self-start" href="./">
+                        <img src="img/logo_lado.png" class="logoMargin logoSize" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link lojaBurg" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lojaBurg " href="/mapa">Mapa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lojaBurg " href="/loja">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lojaBurg" href="/sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lojaBurg" href="/contato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lojaBurg" href="/login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
@@ -189,22 +187,22 @@
             <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
 
             <link href="{{asset('css/dropdown.min.css')}}" rel="stylesheet" type="text/css" />
-            <link href="{{asset('css/jquery.fancybox.min.css')}}" rel="stylesheet" type="text/css" />
+            <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
             <link href="{{asset('css/stylesa361.css?ver=2.3')}}" rel="stylesheet" type="text/css" />
             <link href="{{asset('css/beta-popup.css')}}" rel="stylesheet" type="text/css" />
 
 
 
             <!-- <script src="js/jquery.js"></script> -->
-            <script src="{{url('https://code.jquery.com/jquery-3.4.0.min.js')}}"></script>
+            <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
             <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
             <script src="{{asset('js/bootstrap.min.js')}}"></script>
             <script src="{{asset('js/recicla.min.js')}}"></script>
 
 
             <?php if (strpos($_SERVER['SCRIPT_NAME'], 'mapa.php')): ?>
-                <script src="{{url('https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap')}}"></script>
-        <script src="{{asset('js/gmaps.js')}}"></script> <!-- plugin para google maps api -->
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap"></script>
+        <script src="js/gmaps.js"></script> <!-- plugin para google maps api -->
 
             <script>
 
