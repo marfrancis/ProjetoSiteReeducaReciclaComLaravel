@@ -278,7 +278,7 @@
             <script src="{{asset('js/recicla.min.js')}}"></script>
 
 
-            <?php if (strpos($_SERVER['SCRIPT_NAME'], 'mapa.php')): ?>
+            <?php if (strpos($_SERVER['SCRIPT_NAME'], 'mapa.blade.php')): ?>
                 <script src="{{url('https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap')}}"></script>
         <script src="{{asset('js/gmaps.js')}}"></script> <!-- plugin para google maps api -->
 

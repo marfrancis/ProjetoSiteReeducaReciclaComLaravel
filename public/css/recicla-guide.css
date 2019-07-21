@@ -32,8 +32,7 @@
 .main-footer .tweets .text p{ color:#fff; font-size:17px;}
 .main-footer .tweets .text a{ color:#fff; font-weight:700;}
 .main-footer .tweets .text span{ font-size:14px; color:#c7c9ce; margin:5px 0 0 0;   display: inline-block;}
-.main-footer .newsletter {}
-.main-footer .newsletter .signup-text{}
+
 .main-footer .newsletter .signup-text i{   color: #fff;  font-size: 28px;  float: left;  margin:6px 12px 0 0; -webkit-transform: rotate(-40deg);    -moz-transform: rotate(-40deg);    -ms-transform: rotate(-40deg);    -o-transform: rotate(-40deg);    transform: rotate(-40deg);}
 .main-footer .newsletter .signup-text span{color:#fff;}
 .main-footer .newsletter .form{ margin:20px 0 0 0;}

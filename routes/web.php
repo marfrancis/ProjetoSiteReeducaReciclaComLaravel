@@ -31,6 +31,6 @@ Route::get('/login', 'LoginController@login');
 
 Route::get('/faq', 'FaqController@faq');
 
-
+Route::get('/cadastro', 'UsuarioController@cadastro');
 
 

@@ -100,7 +100,8 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
 		</div>
 	</div>
 
-	<div id="map"></div>
+    <div id="map"></div>
+
 
 
 @endsection

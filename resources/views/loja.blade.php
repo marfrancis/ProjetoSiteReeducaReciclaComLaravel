@@ -56,7 +56,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Eco Tanque 80 litros Casológica</h5>
+                        <h4 class="card-title">Eco Tanque 80 litros Casológica</h4>
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -68,7 +68,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod3.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Luminária solar de parede</h5>
+                        <h4 class="card-title">Luminária solar de parede</h4>
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -80,7 +80,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod2.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Reservatório de óleo vegetal</h5>
+                        <h4 class="card-title">Reservatório de óleo vegetal</h4>
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -92,7 +92,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Vaso coletor de água da chuva</h5>
+                        <h4 class="card-title">Vaso coletor de água da chuva</h4>
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -106,7 +106,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod5.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Canudo ecológico</h5>
+                        <h4 class="card-title">Canudo ecológico</h4>
                         <p class="card-text ">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -119,7 +119,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod6.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Carregador solar portátil</h5>
+                        <h4 class="card-title">Carregador solar portátil</h4>
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -131,7 +131,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod7.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Detergente multiuso biodegradável</h5>
+                        <h4 class="card-title">Detergente multiuso biodegradável</h4>
                         <p class="card-text ">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
@@ -143,7 +143,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                 <div class="card">
                     <img src="img/prod8.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Adidas</h5>
+                        <h4 class="card-title">Tênis Adidas</h4>
                         <p class="card-text">Tênis Adidas feito inteiramente de materiais reciclados.</p>
                         <br>
                         <br>

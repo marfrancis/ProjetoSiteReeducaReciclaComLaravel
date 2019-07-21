@@ -62,7 +62,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                                         <li class="list-inline-item m-t-10"><a href="javascript:void()" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
                                         </li>
                                     </ul>
-                                    <p class="mt-5">Não tem uma conta? <a href="javascript:void()">Cadastre-se agora!</a>
+                                    <p class="mt-5">Não tem uma conta? <a href="/cadastro">Cadastre-se agora!</a>
                                     </p>
                                 </div>
                             </div>
