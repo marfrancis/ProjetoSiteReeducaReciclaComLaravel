@@ -24,13 +24,13 @@ body {
     width: 100%;
 }
 
-a.efeitoTransicao {
+.efeitoTransicao {
     color: black;
     font-size: 1.25rem;
-    font-weight: bolder
+    font-weight: 500
 }
 
-a.efeitoTransicao:hover {
+.efeitoTransicao:hover {
     color: limegreen;
     transition: 0.3s;
 
@@ -992,4 +992,14 @@ a.efeitoTransicaoLoja:hover {
 
 }
 
+/* POLITICA DE PRIVACIDADE */
 
+.font-politica {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.config-card-politica h1, h4 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}

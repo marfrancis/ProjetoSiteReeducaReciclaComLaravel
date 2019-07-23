@@ -51,7 +51,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                                     </div>
                                 </form>
                                 <div class="text-center">
-                                    <h5 class="mb-5">Ou login com</h5>
+                                    <h5 class="mb-5 ">Ou login com</h5>
                                     <ul class="list-inline">
                                         <li class="list-inline-item m-t-10"><a href="javascript:void()" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
                                         </li>

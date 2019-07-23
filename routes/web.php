@@ -33,4 +33,11 @@ Route::get('/faq', 'FaqController@faq');
 
 Route::get('/cadastro', 'UsuarioController@cadastro');
 
+Route::get('/privacidade', 'PrivacidadeController@privacidade');
+
+Route::get('/termos', 'TermosController@termos');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
