@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', 'HomeController@home');
+Route::get('/inicio', 'InicioController@inicio');
 
 Route::get('/contato', 'ContatoController@contato');
 

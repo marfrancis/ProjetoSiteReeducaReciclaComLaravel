@@ -102,7 +102,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);
 	</div>
 
     <div id="map"></div>
-
+    <script src="{{asset('js/jquery.js')}}"></script>
     <?php //if (strpos($_SERVER['SCRIPT_NAME'], 'mapa.php')): ?>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap"></script>
 <script src="{{asset('js/gmaps.js')}}"></script> <!-- plugin para google maps api -->

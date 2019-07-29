@@ -61,7 +61,7 @@
                     <ul class="navbar-nav ml-auto">
 
                                     <li class="nav-item">
-                                        <a class="nav-link active grow efeitoTransicao" href="/">Home</a>
+                                        <a class="nav-link active grow efeitoTransicao" href="/inicio">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link active grow efeitoTransicao" href="/mapa">Mapa</a>
@@ -144,7 +144,7 @@
                          <div class="detail">
                              <ul>
 
-                                 <li><a href="/">Home</a></li>
+                                 <li><a href="/inicio">Home</a></li>
                                  <li><a href="/faq">FAQ</a></li>
                                  <li><a href="/mapa">Mapa</a></li>
                                  <li><a href="/termo">Termo de uso</a></li>
@@ -279,7 +279,7 @@
 
 
 
-                <!-- <script src="js/jquery.js"></script> -->
+                <script src="{{asset('js/jquery.js')}}"></script>
                 <script src="{{url('https://code.jquery.com/jquery-3.4.0.min.js')}}"></script>
                 <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
                 <script src="{{asset('js/bootstrap.min.js')}}"></script>

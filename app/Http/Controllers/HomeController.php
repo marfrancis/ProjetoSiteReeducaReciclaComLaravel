@@ -23,14 +23,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('inicio');
     }
 
-    public function home(Request $request) {
-        if($request->isMethod('GET')){
-            return view('home');
-        }
 
-    }
 
 }
