@@ -12,4 +12,5 @@ class MapaController extends Controller
         }
 
     }
+
 }

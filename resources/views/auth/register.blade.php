@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                         @csrf
 
                         <div class="form-group row">
@@ -60,11 +60,23 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
-
+                        <div class="form-group row ">
+                            <label for="nivel_user" class="col-md-4 col-form-label text-md-right">{{ __('Nivel Usuário') }}</label>
+                            <div class="col-md-6">
+                            <select class="form-control" name="nivel_user" id="nivel_user">
+                            <option value="0">Administrador</option>
+                            <option value="1">Usuario</option>
+                        </select>
+                            </div>
+                        </div>
+                        <div class="form-group row ">
+                            <label for="avatar" class="col-md-4 col-form-label text-md-right">{{ __('Arquivo') }}</label>
+                            <input type="file" name="avatar" id="avatar"  accept="image/png.jpg">
+                        </div>
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Cadastrar') }}
+                                    {{ __('Register') }}
                                 </button>
                             </div>
                         </div>

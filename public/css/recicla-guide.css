@@ -101,5 +101,8 @@ h2.resp-tab-title:last-child {border-bottom: 12px solid #c1c1c1 !important; back
 
 
 
-
+ .img-profile {
+    height: 2rem;
+    width: 2rem;
+}
 

@@ -102,12 +102,14 @@ $facebook_image = htmlentities($root . 'img/' . $foto);
 	</div>
 
     <div id="map"></div>
-    <script src="{{asset('js/jquery.js')}}"></script>
-    <?php //if (strpos($_SERVER['SCRIPT_NAME'], 'mapa.php')): ?>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap"></script>
-<script src="{{asset('js/gmaps.js')}}"></script> <!-- plugin para google maps api -->
+
 
 <script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
 
                 //////////////////////////////////////////////////////////////////////////////////////////
                 // Inicia o mapa informando o elemento, as coordenadas iniciais e algumas opções extras //
@@ -144,7 +146,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);
                      * faz uma solicitação ajax para obter um json com os novos marcadores
                      * @param  [url] passa a url do arquivo que retorna o json com os parâmetros da cidade e categorias selecionadas
                      */
-                     $.getJSON(`marcadores.php?cidade=${cidade}&categoria=${categoria}`).then(function(response){
+                     $.getJSON(`/marcadores?cidade=${cidade}&categoria=${categoria}`).then(function(response){
                         // por ser uma requisição com Promise, é necessário que o        👆 then()
                         // tratamento do retorn o seja feito no método then()
                         // que é executado quando a requisição é bem sucedida
@@ -218,7 +220,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);
                  ///////////////////////////////////////////////////////////////////////
                  // faz uma consulta ajax para obter um json com os nomes das cidades //
                  ///////////////////////////////////////////////////////////////////////
-                 $.getJSON('cidades.php').then(function(response){
+                 $.getJSON('/cidades').then(function(response){
                      window.cidades = response;
                      atualizarCidades();
                  });
@@ -235,12 +237,16 @@ $facebook_image = htmlentities($root . 'img/' . $foto);
 
                  // rola direto pro mapa
                  let tamanhoHeader = 0;
-                 jQuery('header nav').each(function(){
+                 jQuery('#app nav').each(function(){
                      if(jQuery(this).css('display') != 'none') tamanhoHeader = jQuery(this).outerHeight();
                  });
                  jQuery('html, body').animate({
                     'scroll-top': tamanhoHeader+'px'
                 }, 1000);
+
+            });
+
+
                 </script>
 <?php // endif ?>
 

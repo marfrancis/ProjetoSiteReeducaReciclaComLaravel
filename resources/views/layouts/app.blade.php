@@ -90,6 +90,9 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
+                                    @if(Auth::user()->img != null)
+                                    <img class="img-profile rounded-circle" src="{{asset(Auth::user()->img)}}" >
+                                @endif
                                 <a id="navbarDropdown" class="nav-link efeitoTransicao dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
@@ -283,7 +286,8 @@
                 <script src="{{url('https://code.jquery.com/jquery-3.4.0.min.js')}}"></script>
                 <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
                 <script src="{{asset('js/bootstrap.min.js')}}"></script>
-                <script src="{{asset('js/recicla.min.js')}}"></script>
                 {{-- <script src="{{asset('js/app.js') }}" defer></script> --}}
+                <script src="{{asset('js/gmaps.js')}}"></script> <!-- plugin para google maps api -->
+                <script src="{{asset('js/recicla.min.js')}}"></script>
 </body>
 </html>
