@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/inicio', 'InicioController@inicio');
+Route::get('/', 'InicioController@inicio');
 
 Route::get('/contato', 'ContatoController@contato');
 
@@ -35,6 +36,12 @@ Route::get('/cadastro', 'UsuarioController@cadastro');
 
 Route::post('/cadastro', 'UsuarioController@cadastrarUsuario');
 
+Route::get('/carrinho', 'CarrinhoController@carrinho');
+
+Route::get('/finalizada', 'FinalizadaController@finalizada');
+
+Route::get('/dadoscompra', 'DadosCompraController@dadoscompra');
+
 Route::get('/privacidade', 'PrivacidadeController@privacidade');
 
 Route::get('/termos', 'TermosController@termos');
@@ -42,11 +49,18 @@ Route::get('/termos', 'TermosController@termos');
 Route::get('/marcadores', 'MarcadoresController@marcadores');
 
 Route::get('/cidades', 'CidadesController@obterJson');
+
 Route::get('/add-cidade', 'CidadesController@addCidade');
 
-Route::post('/cadastrarempresa', 'EmpresaController@cadastrarEmpresa');
+Route::get('/add-material', 'MaterialController@addMaterial');
 
-Route::post('/cadastrarmaterial', 'MaterialController@cadastrarMaterial');
+Route::get('/add-empresa', 'EmpresaController@addEmpresa');
+
+Route::post('/cadastrarProduto', 'ProdutoController@cadastrarProduto')->name('produto.cadastrar');
+
+Route::post('/cadastrarempresa', 'EmpresaController@cadastrarEmpresa')->name('empresa.cadastrar');
+
+Route::post('/cadastrarmaterial', 'MaterialController@cadastrarMaterial')->name('material.cadastrar');
 
 Route::post('/cadastrarcidade', 'CidadesController@cadastrarCidade')->name('cidade.cadastrar');
 

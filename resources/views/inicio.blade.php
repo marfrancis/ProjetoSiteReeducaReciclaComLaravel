@@ -20,7 +20,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
 
                 <div class="col-12 col-md-6 ">
 
-                    <img src="{{URL::asset('img/familiareciclado.png')}}" alt="" class="img-fluid">
+                    <img src="{{URL::asset('img/mapahome.jpg')}}" alt="" class="img-fluid">
 
                 </div>
 
@@ -34,7 +34,7 @@ $facebook_image = htmlentities($root . 'img/' . $foto);?>
                                 </p>
                                 <!-- <h5>Saiba onde descartar seus resíduos</h5> -->
                                 <p></p>
-                                <a href="mapa.php" class="btn btn-success btn-card">Acessar o Mapa</a>
+                                <a href="/mapa" class="btn btn-success btn-card">Acessar o Mapa</a>
 
 
                 </div>

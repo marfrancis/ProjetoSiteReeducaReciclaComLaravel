@@ -3,13 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\empresa;
 class EmpresaController extends Controller
 {
+    public function addEmpresa(Request $request) {
+        if($request->isMethod('GET')){
+            return view('add-empresa');
+        }
+    }
+
+
     public function cadastrarEmpresa(Request $request){
         $empresa = new Empresa();
         $empresa->nome = $request->nome;
-        $empresa->endereco = $request->endereco;
+        $empresa->endereço = $request->endereço;
         $empresa->numero = $request->numero;
         $empresa->complemento = $request->complemento;
         $empresa->cep = $request->cep;

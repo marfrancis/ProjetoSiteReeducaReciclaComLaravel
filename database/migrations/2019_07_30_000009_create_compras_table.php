@@ -23,21 +23,21 @@ class CreateComprasTable extends Migration
         Schema::create($this->tableName, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->bigInteger('numeroPedido')->nullable();
+            $table->bigInteger('numero_pedido')->nullable();
             $table->string('comprador', 200)->nullable();
-            $table->string('compraRealizada', 200)->nullable();
+            $table->string('compra_realizada', 200)->nullable();
             $table->decimal('preco', 10, 2)->nullable();
-            $table->string('modoPagamento', 50)->nullable();
-            $table->date('dataCompra')->nullable();
-            $table->unsignedInteger('usuarios_id');
+            $table->string('modo_pagamento', 50)->nullable();
+            $table->date('data_compra')->nullable();
+            $table->unsignedInteger('users_id');
 
-            $table->index(["usuarios_id"], 'fk_compra_usuarios1_idx');
+            $table->index(["users_id"], 'fk_compra_usuarios1_idx');
 
             $table->unique(["id"], 'id_UNIQUE');
 
 
-            $table->foreign('usuarios_id', 'fk_compra_usuarios1_idx')
-                ->references('id')->on('usuarios')
+            $table->foreign('users_id', 'fk_compra_usuarios1_idx')
+                ->references('id')->on('users')
                 ->onDelete('no action')
                 ->onUpdate('no action');
         });
